@@ -1,6 +1,7 @@
 # AreiosPagosDataAnalysis
 
 Phase 1: Web crawling all the decisions Areios Pagos made in the year 2024. This is the first project of the course _Εφαρμοσμένη Επιστήμη Δεδομένων - Department of Informatics AUEB 2024-2025_.
+<br/><br/>
 Phase 2: Training a clustering model. This is the second project of the course _Εφαρμοσμένη Επιστήμη Δεδομένων - Department of Informatics AUEB 2024-2025_.
 
 ## Phase 1 - Web Crawling
@@ -85,3 +86,9 @@ For the text we decided to compare how many words each article is. In the diagra
 For the articles we gathered all their appearences on the whole dataframe and counted the frequency of their occurance. There are 4 classes of articles: "ΠΚ" and "ΚΠΔ" for Criminal articles and "ΑΚ" and "ΚΠολΔ" for Political articles.
 
 ![articles](screenshots/articles.png)
+
+## Phase 2 - Data analysis
+
+![silhouette](screenshots/sil.png)
+![k_14](screenshots/k_14.png)
+![k_26](screenshots/k_26.png)
