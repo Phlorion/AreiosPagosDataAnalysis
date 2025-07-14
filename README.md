@@ -1,8 +1,11 @@
-# AreiosPagosWebCrawl
+# AreiosPagosDataAnalysis
 
-Web crawling all the decisions Areios Pagos made in the year 2024. This is the first project of the course _Εφαρμοσμένη Επιστήμη Δεδομένων - Department of Informatics AUEB 2024-2025_.
+Phase 1: Web crawling all the decisions Areios Pagos made in the year 2024. This is the first project of the course _Εφαρμοσμένη Επιστήμη Δεδομένων - Department of Informatics AUEB 2024-2025_.
+Phase 2: Training a clustering model. This is the second project of the course _Εφαρμοσμένη Επιστήμη Δεδομένων - Department of Informatics AUEB 2024-2025_.
 
-## Specifications
+## Phase 1 - Web Crawling
+
+### Specifications
 
 The specifications of the dataframe are the following:
 
@@ -19,9 +22,9 @@ The specifications of the dataframe are the following:
 ![sample_csv](screenshots/screen1.PNG)
 _Sample of the resulting csv after the scraping_
 
-## Statistics and Observations
+### Statistics and Observations
 
-### Classes
+#### Classes
 
 | Τμήμα              | Αριθμός Υποθέσεων |
 | ------------------ | ----------------- |
@@ -39,7 +42,7 @@ _Sample of the resulting csv after the scraping_
 
 ![judges](screenshots/classes.png)
 
-### Judges
+#### Judges
 
 | Δικαστής                                  | Αριθμός Υποθέσεων |
 | ----------------------------------------- | ----------------- |
@@ -59,7 +62,7 @@ There are a total of 363 judges. In the diagram below the 50 most frequent appea
 
 ![judges](screenshots/judges.png)
 
-### Text
+#### Text
 
 For the text we decided to compare how many words each article is. In the diagrams below we can see the max-amount of words on the x-axis (0-2000 words, 2000-5000 words, etc.) and on the y-axis the frequency of each category.
 
@@ -77,7 +80,7 @@ For the text we decided to compare how many words each article is. In the diagra
   </tr>
 </table>
 
-### Articles
+#### Articles
 
 For the articles we gathered all their appearences on the whole dataframe and counted the frequency of their occurance. There are 4 classes of articles: "ΠΚ" and "ΚΠΔ" for Criminal articles and "ΑΚ" and "ΚΠολΔ" for Political articles.
 
